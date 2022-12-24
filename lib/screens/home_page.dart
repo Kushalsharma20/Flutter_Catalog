@@ -10,7 +10,9 @@ class HomePage extends StatelessWidget {
         title: Text("Catalog App"),
       ),
       drawer: Drawer(),
-      body: Center(child: Container(child: Text("Learning Flutter"))),
+      body: Center(
+        child: Container(child: Text("Learning Flutter")),
+      ),
     );
   }
 }
